@@ -1,24 +1,24 @@
 <!-- your html code here -->
-<div class="Formulario">
-    <h3 class="">Contacto</h3>
-    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus in eveniet, non soluta recusandae ea fuga quaerat est, veniam voluptas tempore perspiciatis porro quod rem ipsa eius. Aliquid, doloremque tempora!</p>
-    <form action="" class="bg-light pt-3 border" style="width: 75%; padding-left: 10%;">
+<div class="Formulario m-auto" style="border:solid 1px red; padding: 2% 10%;">
+    <h2 class="h2 text-dark">Contact</h2>
+    <p class="texto text-dark fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus in eveniet, non soluta recusandae ea fuga quaerat est, veniam voluptas tempore perspiciatis porro quod rem ipsa eius. Aliquid, doloremque tempora!</p>
+    <form action="" class="bg-light pt-3 pb-4 border" style="width: 75%; padding-left: 9%; margin: auto;">
         <div class="row mb-3 me-1">
-          <label for="inputEmail3" class="col-sm-2 col-form-label-sm">Your E-mail</label>
+          <label for="inputEmail3" class="col-sm-2 col-form-label-sm fw-bold text-dark ps-4 fs-7">Your E-mail</label>
           <div class="col-sm-10">
             <input type="email" class="form-control" id="inputEmail3">
           </div>
         </div>
         <div class="row mb-3 me-1">
-            <label for="floatingTextarea" class="col-sm-2 col-form-label">Your Message</label>
+            <label for="floatingTextarea" class="col-sm-2 col-form-label-sm fw-bold text-dark ps-3 fs-7">Your Message</label>
           <div class="col-sm-10">
             <div class="form-floating">
                 <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 120px;"></textarea>
-                <label for="floatingTextarea">Comments</label>
+                <label for="floatingTextarea" class="fs-6 text-secondary">Add your comments here...</label>
               </div>
           </div>
         </div>
-        <div class="container d-flex flex-row justify-content-end me-3">
+        <div class="d-flex justify-content-end me-3 ms-0 ps-0">
             <button type="button" class="btn btn-primary btn-lg">Primary</button>
         </div>
     </form>    
