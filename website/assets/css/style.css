@@ -1,3 +1,13 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+
+.card-porfolio{
+    background-color: transparent;
+    border: none;
+    max-width: 300px;
+}
+
+.card-title{
+    color: blue;
 }
