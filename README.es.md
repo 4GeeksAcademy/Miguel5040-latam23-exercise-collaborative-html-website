@@ -69,7 +69,7 @@ Christopher:
 -navbar
 -tagline
 
-Heisa:
+Haisa:
 -first-heading
 -services
 
